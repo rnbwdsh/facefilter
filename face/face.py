@@ -1,7 +1,9 @@
 #!/bin/python
-import cv2, sys, os
-from PIL import Image
+import cv2
+import os
 import random
+import sys
+from PIL import Image
 
 dir = os.path.dirname(os.path.realpath(__file__))+"/"
 idir = dir+"img/"
@@ -15,7 +17,7 @@ def overlay(filename):
 
     # detect faces
     haar_face_cascade = cv2.CascadeClassifier(dir+'haarcascade_frontalface_alt.xml')
-    faces = haar_face_cascade.detectMultiScale(gray, scaleFactor=1.02);
+    faces = haar_face_cascade.detectMultiScale(gray, scaleFactor=1.2)
 
     # overlay
     for (x, y, w, h) in faces:

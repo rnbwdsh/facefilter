@@ -1,10 +1,19 @@
-# toolbox
+# Installation
+Copy img/ + haarcascade + faec.py file somewhere (like /opt/face)
 
-A repo focusing on useful code/script snippets and tools, which can/should be used to solve challenges
+Install with `sudo ln -s <absolute-path-of-face.py> /usr/bin/face` 
 
+# Usage
+`face a.jpg b.jpg` -> will create `_a.jpg`, `_b.jpg`
 
-## Crypto
+Modify `scaleFactor=1.2` for stronger/weaker face detection
 
-### Stream Cipher
+Add/remove images from img folder
 
-A simple script to decrypt a stream cipher can be found in [here](breakStreamCipher.py), if you have enough different encrypted output (which was encrypted with the same keystream
+# Requirements
+* opencv2
+* cv2-python bindings
+* PIL or Pillow
+
+# Demo
+![before](before.jpg) ![after](after1.jpg) ![after](after2.jpg)
