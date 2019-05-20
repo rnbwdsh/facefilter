@@ -12,4 +12,4 @@ Install with `sudo ln -s <absolute-path-of-face.py> /usr/bin/face`
 * PIL or Pillow
 
 # Demo
-![before](before.jpg) ![after](after.jpg)
+![before](before.jpg) ![after](after1.jpg) ![after](after2.jpg)
