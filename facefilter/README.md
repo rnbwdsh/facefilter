@@ -1,11 +1,12 @@
-#Installation
-Copy somewhere (like /opt/face)
-install with sudo ln -s <absolute-path-of-face.py> /usr/bin/face
+# Installation
+Copy happy.png + haarcascade + py file somewhere (like /opt/face)
 
-#Usage
-face a.jpg b.jpg -> will create `_a.jpg`, `_b.jpg`
+Install with `sudo ln -s <absolute-path-of-face.py> /usr/bin/face` 
 
-#Requirements
-opencv2
-cv2-python bindings
-PIL or Pillow
+# Usage
+`face a.jpg b.jpg` -> will create `_a.jpg`, `_b.jpg`
+
+# Requirements
+* opencv2
+* cv2-python bindings
+* PIL or Pillow
