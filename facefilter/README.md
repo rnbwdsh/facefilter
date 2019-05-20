@@ -10,3 +10,6 @@ Install with `sudo ln -s <absolute-path-of-face.py> /usr/bin/face`
 * opencv2
 * cv2-python bindings
 * PIL or Pillow
+
+# Demo
+![before](before.jpg) ![after](after.jpg)
